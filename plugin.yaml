@@ -11,3 +11,4 @@ inputs:
     type: text
     name: project_folder
     default: folder-name
+    pattern: '[a-zA-Z0-9](\w|-)*$'
